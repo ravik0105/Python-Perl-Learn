@@ -18,3 +18,10 @@ for my $line (split /\n/, $text){
 }
 
 print Dumper(\%composers);
+
+# output will be like below
+#$VAR1 = {
+#          'Antonio Brioschi' => '1725-1750',
+#          'Ravi Kannan Zani' => '1696-1757',
+#          'Antonio Vivaldi' => '1678-1741'
+#        };
